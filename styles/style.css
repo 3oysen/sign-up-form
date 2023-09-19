@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+.btn-default {
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: hsl(248, 32%, 49%);
+  border: 1px solid #4cae4c;
+}
+
+.btn-green {
+  color: #ffffff;
+  background-color: hsl(154, 59%, 51%);
+  border: 1px solid #4cae4c;
+}/*# sourceMappingURL=style.css.map */

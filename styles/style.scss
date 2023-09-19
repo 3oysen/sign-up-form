@@ -1,0 +1,26 @@
+//variable
+$blue: hsl(248, 32%, 49%);
+$green: hsl(154, 59%, 51%);
+$red: hsl(0, 100%, 74%);
+
+//mixins
+@mixin button($color: #333, $bg: #ffffff, $border: #cccccc) {
+	color: $color;
+	background-color: $bg;
+	border: 1px solid $border;
+}
+
+//
+.btn-default {
+	@include button;
+}
+
+.btn-blue {
+	@include button(#ffffff, $blue, $border);
+}
+.btn-green {
+	@include button(#ffffff, $green, $border);
+}
+.btn-red {
+	@include button(#ffffff, $red, $border);
+}
